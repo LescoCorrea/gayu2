@@ -1,0 +1,98 @@
+
+.bg-image{
+    background-image: url('../../../public/images/login.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    padding: 4rem;
+}
+
+.error-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.error-message{
+    color: red;
+    font-family: poppins;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.body-form{
+    width: 100%;
+}
+.cont-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tit{
+    color: whitesmoke;
+    font-family: poppins;
+    font-weight: 500;
+    line-height: 20px;
+}
+.inp-log{
+    width: 350px;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    font-family: poppins;
+    font-weight: 500;
+}
+.inp-log:hover{
+    border: none;
+}
+.par-con {
+    color: #999;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ins-con {
+    color: #9A0000;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-co {
+    color: #FFF;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 19.444px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #9A0000;
+    width: 200px;
+}
+.cards-log{
+    background: transparent;
+}
+.btn-co:hover {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19.444px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #9A0000;
+}

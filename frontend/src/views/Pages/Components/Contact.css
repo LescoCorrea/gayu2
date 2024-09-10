@@ -1,0 +1,179 @@
+/* Styles de base */
+li .breadcumbs {
+    color: #313131;
+    font-family: Roboto;
+    font-size: 1rem;
+    /* Utilisation de rem pour une meilleure adaptabilité */
+    font-weight: 400;
+    line-height: 1rem;
+    text-decoration: none;
+}
+
+.rows-c {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.breadcrumb {
+    background: white;
+}
+
+.form-controls:focus {
+    outline: none;
+}
+
+.form-controlt:focus {
+    outline: none;
+}
+
+/* Fond vert pour les messages */
+.cnt-message-success {
+    background: rgb(97, 245, 97);
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+}
+
+/* Fond rouge pour les erreurs */
+.cnt-message-error {
+    background: rgb(245, 97, 97);
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+}
+
+
+.form-control-errors {
+    border: 2px solid red;
+}
+
+/* Message d'erreur */
+.error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+
+.form-controlt {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.form-controls {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.paragraph-contact {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    /* Utilisation de rem pour une meilleure adaptabilité */
+    font-weight: 500;
+    line-height: normal;
+}
+
+.col-bg {
+    background-image: url('../../public/images/bg-contact1.png');
+    background-size: cover;
+    background-position: center;
+    width: 1170px;
+    height: 326px;
+    flex-shrink: 0;
+    margin-left: -16px;
+}
+
+.form-containers-ct {
+    margin-top: -25px;
+}
+
+/* Styles responsive */
+@media (max-width: 768px) {
+    .col-bg {
+        display: none;
+    }
+
+    .rows-c {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li .breadcumbs {
+        font-size: 0.875rem;
+        /* Réduction de la taille des polices */
+        line-height: 0.875rem;
+    }
+
+    .form-controlt,
+    .form-controls {
+        font-size: 0.875rem;
+        /* Réduction de la taille des polices */
+        padding: 4px;
+        /* Réduction du padding */
+    }
+
+    .form-controls {
+        height: 36px;
+        /* Réduction de la hauteur pour les petits écrans */
+    }
+
+    .paragraph-contact {
+        font-size: 0.875rem;
+        /* Réduction de la taille des polices pour les petits écrans */
+    }
+}
+
+@media (max-width: 480px) {
+    li .breadcumbs {
+        font-size: 0.75rem;
+        /* Réduction supplémentaire pour les très petits écrans */
+        line-height: 0.75rem;
+    }
+
+    .form-controlt,
+    .form-controls {
+        font-size: 0.75rem;
+        /* Réduction de la taille des polices */
+        padding: 3px;
+        /* Réduction du padding */
+    }
+
+    .form-controls {
+        height: 32px;
+        /* Réduction de la hauteur pour les très petits écrans */
+    }
+
+    .paragraph-contact {
+        font-size: 0.75rem;
+        /* Réduction supplémentaire pour les très petits écrans */
+    }
+
+    .col-bg {
+        display: none;
+    }
+}

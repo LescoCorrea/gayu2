@@ -1,0 +1,29 @@
+.swal2-confirm {
+    background-color: transparent !important;
+    color: #9A0000 !important;
+    border: 1px solid #9A0000 !important;
+    padding: 8px 15px !important;
+    border-radius: 15px !important;
+}
+
+.swal2-confirm:hover {
+    background-color: transparent;
+}
+
+.swal2-cancel {
+    background-color: #9A0000 !important;
+    color: white !important;
+    border: none !important;
+    padding: 8px 15px !important;
+    border-radius: 15px !important;
+}
+
+.swal2-title {
+    color: #666 !important;
+    font-size: 16px !important;
+}
+
+.swal2-text {
+    color: #666 !important;
+    font-size: 13px !important;
+}

@@ -1,0 +1,294 @@
+.bg-art {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.usr-icon {
+    color: whitesmoke;
+}
+
+.notificat-ds {
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-menu-notification {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 1px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    width: 380px;
+    max-height: 260px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 9px;
+}
+
+.dropdown-menu-notification::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    /* Largeur de la barre de défilement */
+}
+
+.dropdown-menu-notification::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+.dropdown-menu-notification::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 5px;
+    padding-right: 4px;
+}
+
+/*.dropdown-menu-notification.show {
+    display: block;
+}*/
+.cnt-link-nt-all {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bcbdbd;
+}
+
+.duree-nt {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.content-nt {
+    display: flex;
+    width: 390px;
+}
+
+.cont-tt-nt {
+    margin-top: 3px;
+    margin-left: 16px;
+}
+
+.cont-link {
+    text-decoration: none;
+}
+
+.cnt-usr-nt {
+    display: flex;
+    justify-content: center;
+}
+
+.nr-nt {
+    margin-top: 3px;
+}
+
+.user-nam-nt {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.bg-nt {
+    position: relative;
+    background: #08C552;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 7px;
+    height: 60px;
+    margin-left: -10px;
+}
+
+.bg-nt-scn {
+    position: relative;
+    background: #0071FF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 7px;
+    height: 60px;
+    margin-left: -10px;
+}
+
+.cont-voir-tout {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: #FFD1D1;
+}
+
+.nm-vt {
+    color: #9A0000;
+    font-weight: 600;
+}
+
+.cnt-link-nt {
+    margin-left: 8px;
+}
+
+.avatar-notif {
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    padding: -1px;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.user-notif {
+    display: flex;
+}
+
+.realisation-image-nt-user {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.highlighted-text {
+    font-weight: bold;
+    color: #000;
+}
+
+.usr-cm-usr {
+    text-align: center;
+    margin-left: -1px;
+    font-size: 13px;
+    color: #000;
+}
+
+.message-style {
+    font-size: 12.5px;
+    color: #999999;
+    font-weight: 300;
+}
+
+.cont-txt-nt {
+    width: 220px;
+}
+
+.cnt-nt-usr {
+    display: flex;
+    margin-left: 10px;
+    width: 249px;
+}
+
+.cnt-jr-nt {
+    margin-left: 15px;
+}
+
+.day-nt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.nm-usr-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.cnt-text-nt {
+    margin-top: -5px;
+}
+
+.text-nt {
+    font-size: 13px;
+    font-weight: 300;
+    color: #7F7F7F;
+}
+
+.t-b {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.badge {
+    margin-top: 20px;
+}
+
+.num-not {
+    margin-right: 15px;
+}
+
+.b-no {
+    padding: 2px;
+    color: whitesmoke;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: -8px;
+    position: absolute;
+}
+
+.d-inp-ad {
+    display: flex;
+    align-items: center;
+}
+
+.r-ds {
+    width: 100%;
+}
+
+.nav-links-user {
+    color: black;
+}
+
+.sb-sidenav-art {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-links-user {
+    display: flex;
+    align-items: center;
+    margin: 18px;
+    text-decoration: none;
+    padding: 4px;
+    color: #83909A;
+    font-family: Poppins;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-links-user:hover,
+.nav-links-user.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 4px;
+    border-radius: 30px;
+    background: #C00513;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-decoration: none;
+}
+
+.ds-se {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.ds-se:hover {
+    color: #C00513;
+}
+
+.link-ar {
+    margin-left: 8px;
+    margin-top: 9px;
+}
+
+.d-n {
+    align-items: center;
+}
+
+#sidebarToggle {
+    display: none;
+}
+
+.cnt-nt-nm{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+

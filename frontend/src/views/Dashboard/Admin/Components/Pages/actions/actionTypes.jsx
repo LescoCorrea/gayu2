@@ -1,0 +1,4 @@
+export const ADD_ARTISAN = 'ADD_ARTISAN';
+export const DELETE_ARTISAN = 'DELETE_ARTISAN';
+export const FETCH_ARTISANS = 'FETCH_ARTISANS';
+export const UPDATE_ARTISAN = 'UPDATE_ARTISAN'; 

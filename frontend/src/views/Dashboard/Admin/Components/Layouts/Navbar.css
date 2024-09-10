@@ -1,0 +1,147 @@
+.nav-mar {
+    margin-right: 10px;
+}
+
+.bg-dash {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #9A0000;
+}
+
+.bg-sid {
+    background: #F6F8F9;
+}
+
+.link-dash {
+    color: whitesmoke;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.link-dash:hover {
+    text-decoration: none;
+}
+
+.d-inp-ad {
+    border: 1px solid #83909A;
+    background: #ffff;
+    border-radius: 30px;
+    padding: 4px;
+    width: 200px;
+}
+
+.sr-f-src {
+    font-size: 14px;
+    color: #CCCDCE;
+    margin-left: 3px;
+}
+
+.r-ds {
+    border: none;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.r-ds:focus {
+    outline: none;
+}
+
+.notificat-ds {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 6px;
+}
+
+.na-nav {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    padding: 6px;
+    width: 38px;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #9A0000;
+}
+
+.log-d {
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cont-input-ar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frm-drt{
+    margin-left: 10px;
+}
+
+.fs-be {
+    color: #ffff;
+}
+
+.c-n-nb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin-top: -18px;
+    margin-left: -3px;
+    background: #FCC100;
+    height: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #F6F8F9;
+}
+
+/*.f-sr {
+    /*color: #83909A;
+}*/
+
+.sb-dash {
+    margin-left: 20px;
+}
+
+.sb-nav-link-icon {
+    margin-left: 5px;
+}
+
+.d-logt{
+    margin-right: 13px;
+}
+
+.nam-dash {
+    font-family: Poppins;
+    line-height: 20px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+/*----- animation sidebar--------*/
+.nav-links-user{
+    display: flex;
+    align-items: center;
+    margin: 18px;
+    text-decoration: none;
+    padding: 4px;
+    color: #83909A;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-links-user:hover,
+.nav-links-user.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 4px;
+    border-radius: 30px;
+    background: #9A0000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

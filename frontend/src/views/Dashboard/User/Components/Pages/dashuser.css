@@ -1,0 +1,426 @@
+
+.c-user .card {
+    border: none;
+}
+
+.name-dah-user {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    line-height: 25px;
+    color: #64748B;
+}
+
+/* Flexbox */
+
+.df-filtr {
+    display: flex;
+    align-items: center;
+}
+
+.df-src {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -32px;
+    position: relative;
+}
+
+.c-dt-r {
+    display: flex;
+    width: 100%;
+}
+
+.f-r-dte {
+    padding: 3px;
+    border: 1px solid #64748B;
+    border-radius: 8px;
+    line-height: 18px;
+}
+
+.table-favoris {
+    box-shadow: rgba(160, 160, 160, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.sr-re {
+    padding: 3px;
+    background: #22D78C;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.en-cours {
+    text-align: center;
+    padding: 3px 12px;
+    background: #f5e943;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.occupée {
+    text-align: center;
+    padding: 3px 12px;
+    background: #9A0000;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.disponible {
+    text-align: center;
+    padding: 3px 8px;
+    background: #02df56;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.attente {
+    font-weight: 300;
+    color: #fff;
+}
+
+.s-frv {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: -33px;
+    right: 12px;
+}
+
+.f-r-dt {
+    margin-left: 8px;
+    border: 1px solid #64748B;
+    border-radius: 8px;
+    line-height: 18px;
+}
+
+.btn-close:focus {
+    outline: none;
+}
+
+.clic-img {
+    border-radius: 15px;
+    border: none;
+}
+
+.icn-rsv {
+    margin-left: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(107, 106, 106);
+}
+
+.edit-rsv {
+    margin-left: 7px;
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(79, 79, 245);
+}
+
+.icn-arv {
+    font-size: 14px;
+    color: rgb(107, 106, 106);
+    cursor: pointer;
+}
+
+.click-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-img-rs {
+    text-align: center;
+}
+
+.cnt-rs-img {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.text-res {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+    background: #f3f5f5;
+    padding: 6px;
+}
+
+.text-res:focus {
+    outline: none;
+}
+
+.icn-tsh {
+    margin-left: 8px;
+    font-size: 14px;
+    color: rgb(107, 106, 106);
+    cursor: pointer;
+}
+
+.click-img {
+    padding: 7px;
+}
+
+.navbar-reservation {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.navbar-reservation .nav-link-resv {
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.brbtm {
+    width: 100%;
+    border: 0.1px solid #cacaca;
+    position: absolute;
+    margin-top: -22px;
+    z-index: -1;
+}
+
+.nav-link-resv-trm {
+    margin-left: 10px;
+}
+
+.nav-link-resv-anl {
+    margin-left: 10px;
+}
+
+.dt-cont {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cacaca;
+}
+
+.bt-clr {
+    background: #9A0000;
+    min-height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.prf-dt {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    margin-top: -30px;
+    z-index: 3;
+    margin-left: 5px;
+}
+
+.mb-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+.pdg-prf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9A0000;
+    border-radius: 50px;
+    width: 85px;
+    height: 85px;
+}
+
+.pdg-prf-img img {
+    border-radius: 50px;
+    width: 85px;
+    height: 85px;
+}
+
+.mb-usr {
+    font-family: poppins;
+    line-height: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.cnt-nm-prf {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.nm-pfl {
+    font-size: 16px;
+    font-family: poppins;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.dtl-pfl {
+    font-size: 15px;
+    font-family: poppins;
+    line-height: 15px;
+}
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .c-user .card {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-reservation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-close {
+        margin-top: 10px;
+    }
+
+    .c-user .card {
+        margin-bottom: 15px;
+        max-width: 250px;
+    }
+
+    .text-res {
+        height: auto;
+        padding: 10px;
+    }
+
+    .cnt-rs-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .s-frv {
+        position: static;
+        margin-top: 10px;
+        right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .name-dah-user {
+        font-size: 20px;
+    }
+
+    .mb-usr {
+        font-size: 24px;
+    }
+
+    .btn-mod-pfl,
+    .btn-mod-pfl-an {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .input-container input {
+        padding-right: 20px;
+    }
+
+    .c-user .card {
+        max-width: 95vw; 
+    }
+}
+
+@media (max-width: 650px) {
+    .name-dah-user {
+        font-size: 18px;
+    }
+
+    .titel-sd {
+        text-align: center;
+    }
+
+    .s-t-sd {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn-mod-pfl,
+    .btn-mod-pfl-an {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .text-res {
+        height: auto;
+        padding: 8px;
+    }
+
+    .cnt-rs-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .c-user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-user .card {
+        max-width: 85vw;
+        padding: 5px;  
+    }
+}
+
+@media (max-width: 576px) {
+    .name-dah-user {
+        font-size: 18px;
+    }
+
+    .titel-sd {
+        text-align: center;
+    }
+
+    .s-t-sd {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn-mod-pfl,
+    .btn-mod-pfl-an {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .text-res {
+        height: auto;
+        padding: 8px;
+    }
+
+    .cnt-rs-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .c-user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .c-user .card {
+        max-width: 90vw;
+    }
+}

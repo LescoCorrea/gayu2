@@ -1,0 +1,607 @@
+/* Artisan.css */
+
+/* General Styles */
+.artisan-page {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+/* Header Styles */
+.artisan-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.artisan-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+
+.artisan-name {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #ffff;
+}
+
+.artisan-email {
+    color: #fff;
+}
+
+.btn-wht-icon {
+    padding: 4px;
+    border: none;
+    background: #971200;
+    border-radius: 30px;
+    color: #fff;
+    width: 250px;
+}
+
+.btn-wht-wht {
+    padding: 4px;
+    border: none;
+    background: rgb(10, 245, 10);
+    border-radius: 30px;
+    color: #fff;
+    width: 250px;
+}
+
+.icon-d {
+    color: #000;
+}
+
+.thmbs-right {
+    margin-left: 10px;
+}
+
+.lgt {
+    color: #000;
+}
+
+.btn-wht-fav {
+    padding: 4px;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    color: rgb(10, 245, 10);
+    border: 1px solid rgb(10, 245, 10);
+    width: 250px;
+}
+
+.fav-icon {
+    color: rgb(10, 245, 10);
+}
+
+.ctn-avis-artisan {
+    width: 300px;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.sai-avis {
+    width: 270px;
+    height: 110px;
+    padding: 8px;
+    border-radius: 20px;
+    background: #ddd;
+    border: none;
+}
+
+.sai-avis:focus {
+    outline: none;
+}
+
+.form-avis {
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cnt-tdl-art {
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.ctn-info {
+    display: flex;
+}
+
+.artisan-name-info {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.cont-info-left {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-realisation-actions {
+    display: flex;
+}
+
+.info-left {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artisan-description-advice {
+    /*padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;*/
+}
+
+.cont-artisan-description{
+    max-height: 5em; /* Ajustez cette valeur pour obtenir environ 3 lignes de texte */
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cont-artisan-description::-webkit-scrollbar {
+    width: 12px; /* Largeur de la scrollbar */
+}
+
+.cont-artisan-description::-webkit-scrollbar-thumb {
+    background-color: #888; /* Couleur de la partie déplaçable de la scrollbar */
+    border-radius: 6px; /* Arrondir les coins de la scrollbar */
+    transition: background-color 0.3s; /* Ajouter une transition pour le survol */
+}
+
+.cont-artisan-description::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Couleur de la scrollbar lors du survol */
+}
+
+.cont-artisan-description::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Couleur de la piste de la scrollbar */
+    border-radius: 6px; /* Arrondir les coins de la piste */
+}
+
+.cnt-atl {
+    display: flex;
+}
+
+.nmt {
+    margin-left: 7px;
+    margin-top: -4px;
+    color: #333;
+}
+
+.brush {
+    color: #333;
+    font-size: 14px;
+}
+
+.ctn-dtl-nm-art {
+    display: flex;
+}
+
+/* Section Styles */
+.artisan-info {
+    margin-bottom: 30px;
+}
+
+.artisan-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.artisan-description,
+.artisan-advice {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.artisan-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.artisan-section {
+    margin-bottom: 20px;
+}
+
+.artisan-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.artisan-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.artisan-list li {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Realisations Styles */
+.realisation {
+    margin-bottom: 20px;
+}
+
+/*.artisan-header {
+    background-image: url('../../../../public/images//BG-BANNER.png');
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+}*/
+.st-fl-end-px {
+    display: flex;
+    justify-content: start;
+    margin-right: 5px;
+}
+
+.n-re-px {
+    z-index: 10;
+}
+
+.n-re-px {
+    position: relative;
+    top: 63px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 90px;
+    background: blue;
+    border-radius: 6px;
+}
+
+.s-r-px {
+    color: #ffff;
+}
+
+.realisation-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.realisation-action {
+    margin-left: 15px;
+    margin-top: 28px;
+}
+
+.like-rig {
+    margin-left: 10px;
+}
+
+.realisation h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.realisation-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.realisation-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*---- COMMENTAIRES ---*/
+.realisation-action {
+    cursor: pointer;
+}
+
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.comment-modal {
+    overflow-y: auto;
+    padding-left: 3px;
+}
+
+.cont-form-comment {
+    padding: 3px;
+    box-shadow: 0 0 10px rgba(97, 97, 97, 0.1);
+    border-radius: 13px;
+    width: 320px;
+    margin-left: 5px;
+}
+
+.comment-modal::-webkit-scrollbar {
+    width: 8px;
+    margin-left: 5px;
+}
+
+.comment-modal::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.comment-modal::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Couleur de la partie défilante */
+    border-radius: 10px;
+    /* Bordures arrondies pour la partie défilante */
+}
+
+.comment-modal::-webkit-scrollbar-thumb:hover {
+    background: #888;
+    /* Couleur de la partie défilante au survol */
+}
+
+.header-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reply-item {
+    margin-left: 18px;
+}
+
+.nam-comment {
+    display: flex;
+}
+
+.usr-comt {
+    padding: 8px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #971200;
+}
+
+.artisan-image-cmot {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.artisan-image-reply {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.usr-comt span {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.user-nm-comt {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.user-nm-comt h6 {
+    font-size: 14px;
+}
+
+.h-comment span {
+    font-size: 14px;
+}
+
+.container-comment {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background: #f3f4f5;
+    padding: 5px;
+}
+
+.p-com {
+    font-size: 13px;
+}
+
+.container-reply {
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    background: #f3f4f5;
+    padding: 5px;
+}
+
+.cont-icon-comment {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.heart-comt {
+    margin-left: 5px;
+    color: #971200;
+    cursor: pointer;
+}
+
+.cont-rpse-comt {
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cont-rpdre-comt {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.artisan-image-cmot {}
+
+.mention {
+    color: #ddd;
+    font-size: 14px;
+}
+
+.nm-rpdr {
+    font-size: 15px;
+}
+
+.nm-reps {
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.inpt-cmot {
+    width: 210px;
+    padding: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.inpt-cmot:focus {
+    outline: none;
+}
+
+.btn-comt {
+    padding: 4.5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background: #971200;
+    color: #fff;
+    font-size: 15px;
+    width: 100px;
+}
+
+/* Styles pour le Modal */
+.auth-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.cont-modal-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.auth-modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.auth-modal-content .button-auth-con {
+    margin: 5px;
+    border: none;
+    background: #971200;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cont-lbl-metier:hover{
+    background: #ddd;
+}
+
+/* Masquer les flèches de la scrollbar */
+.custom-scroll::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+/* Style de la scrollbar personnalisée */
+.custom-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Pour Firefox */
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+
+.error-message-auth{
+    color: #971200;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.auth-input{
+    padding: 6px;
+    border-radius: 15px;
+    color: #000;
+    width: 250px;
+    border: none;
+    background: #d6d8d8;
+}
+.auth-input:focus{
+    outline: none;
+}
+.close-auth-modal{
+    display: flex;
+    justify-content: flex-end;
+}
+.close-icon-auth{
+    color: #971200;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.link-auth{
+    color: #fff;
+    text-decoration: none;
+}
+.link-auth:hover{
+    color: #fff;
+    text-decoration: none;
+}
